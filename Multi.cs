@@ -41,7 +41,7 @@ public class Multi
      
     class Program1
     {
-        static void Main(string[] args)
+        public static void Main1(string[] args)
         {
             Rectangle rect = new Rectangle(5, 10, "blue");
             Console.WriteLine("Area of rectangle: " + rect.GetArea());

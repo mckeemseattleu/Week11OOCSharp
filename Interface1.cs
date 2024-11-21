@@ -1,5 +1,5 @@
 ﻿//https://www.geeksforgeeks.org/c-sharp-inheritance-in-interfaces/
-namespace Week8OOCSharp;
+namespace Interface1;
 using System;
 
 // C# program to illustrate the concept
@@ -57,10 +57,10 @@ class TechnicalScriptWriter : Details
 }
 
 // Driver Class
-class GFG {
+public class GFG {
 
     // Main method
-    static void Main7()
+    public static void Main_GFG()
     {
 
         // Creating the objects of 
@@ -71,5 +71,12 @@ class GFG {
         // the required values
         obj.vote_no(470045);
         obj.detailsofauthor("Siya", 98);
+        
+        // Lets call it via an Interface (Votes)
+
+        Details detail_obj = obj;
+        obj.detailsofauthor("Siya", 98);
+
+
     }
 }

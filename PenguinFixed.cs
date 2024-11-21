@@ -1,4 +1,4 @@
-﻿namespace Week8OOCSharp;
+﻿namespace PenguinFixed;
 
 public class PenguinFixed
 {
@@ -73,12 +73,19 @@ public class PenguinFixed
         {
         }
     }
-
+    
+    public class Penguin : FlyingBird
+    {
+        public Penguin(string name) : base(name)
+        {
+        }
+    }
     // HIDE BREAKOUT
-    int main()
+    public static int Main_pfix()
     {
         IRegularBird duckObj = new Duck("Donald Duck");
         duckObj.Eat();
+
         return 0;
     }
 }

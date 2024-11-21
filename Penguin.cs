@@ -1,4 +1,4 @@
-﻿namespace Week8OOCSharp;
+﻿namespace Penguin;
 
 public class Penguin_liskov
 {
@@ -59,11 +59,10 @@ public class Penguin_liskov
         }
     }
 
-    int main_penguin()
+    public static void Main_Penguin()
     {
         // Try to make a Penguin Fly
         Bird birdObj = new Penguin("Pengy");
         birdObj.Fly();
-        return 0;
     }
 }

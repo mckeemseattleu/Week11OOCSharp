@@ -1,4 +1,4 @@
-﻿namespace Week8OOCSharp;
+﻿namespace Multi2;
 using System;
 using System.Collections;
 
@@ -8,14 +8,15 @@ public class Multi2
 // implement multiple class inheritance
 // using interfaces
 
-     
+
+
     // Interface 1
-    interface GFG1 {
+    public interface GFG1 {
         void languages();
     }
      
     // Parent class 1
-    class Geeks1 : GFG1 {
+    public class Geeks1 : GFG1 {
      
         // Providing the implementation
         // of languages() method
@@ -93,13 +94,14 @@ public class Multi2
     public class GFG {
      
         // Main method
-        static public void Main_MULTI2()
+        public static void Main_Multi2()
         {
      
             // Creating object of GeeksforGeeks class
             GeeksforGeeks obj = new GeeksforGeeks();
             obj.languages();
             obj.courses();
+            
         }
     }    
 }
