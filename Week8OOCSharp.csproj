@@ -34,6 +34,7 @@
       <Compile Include="obj\Debug\net8.0\Week8OOCSharp.AssemblyInfo.cs" />
       <Compile Include="obj\Debug\net8.0\Week8OOCSharp.GlobalUsings.g.cs" />
       <Compile Remove="obj\**" />
+      <Compile Remove="Generics3.cs" />
     </ItemGroup>
 
     <ItemGroup>
