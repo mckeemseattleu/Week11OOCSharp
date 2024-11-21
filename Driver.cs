@@ -6,6 +6,8 @@ public class Driver
     static void Main(string[] args)
     {
         // Simple Example of a Generic
+        Console.WriteLine(("DI Example\n"));
+        DI.DI.constructor.Main_DI();
         Console.WriteLine("Generics1\n");
         Generics1.Example2.Main_Generics1();
         Console.WriteLine("Generics2\n");        
@@ -22,5 +24,7 @@ public class Driver
         PenguinFixed.PenguinFixed.Main_pfix();
         
         JSONExample.Program_WeatherForecast.Main_Weather();
+        
+        SQLiteDemo.Program.Main_Sqlite();
     }
 }

@@ -44,4 +44,10 @@
       <None Remove="obj\**" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="SQLite" Version="3.13.0" />
+      <PackageReference Include="sqlite-net" Version="1.6.292" />
+      <PackageReference Include="System.Data.SQLite" Version="1.0.119" />
+    </ItemGroup>
+
 </Project>

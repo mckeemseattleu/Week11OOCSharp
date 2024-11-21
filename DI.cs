@@ -1,4 +1,4 @@
-﻿namespace Week8OOCSharp;
+﻿namespace DI;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,13 +32,12 @@ public class DI
             _text.print();
         }
     }
-    class constructor
+    public class constructor
     {
-        static void Main_DI(string[] args)
+        public static void Main_DI()
         {
             constructorinjection cs = new constructorinjection(new format());
             cs.print();
-            Console.ReadKey();
         }
     }
  
